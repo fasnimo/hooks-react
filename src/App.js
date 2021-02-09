@@ -21,12 +21,13 @@ const App = ({ login }) => {
   if(!data) return null;
 
   if(data){
-  
+    // debugger
     return (
       <div>
         <h1>{data.name}</h1>
         <h2>Username: {data.login}</h2>
         <img alt={data.login} src={data.avatar_url} />
+        <p>Public Repos: {data.public_repos}</p>
         <p>URL: {data.url}</p>
         <p>Followers: {data.followers}</p>
         <p>Followers URL: {data.followers_url}</p>
