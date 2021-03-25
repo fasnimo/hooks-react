@@ -13,7 +13,7 @@ const App = ({ login }) => {
       .then(setData)
       .then(() => setLoading(false))
       .catch(setError);
-  }, [login]) //dependency array
+  }, [login]) 
 
   if(loading) return <h1>Loading...</h1>;
   if(error) 
