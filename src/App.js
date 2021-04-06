@@ -1,4 +1,6 @@
 import React, { useState, useEffect } from 'react';
+// import { Routes, Route } from "react-router-dom"
+// import { Home, About, Events, Contacts } from "./pages"
 
 const App = ({ login }) => {
   const [data, setData] = useState(null)
