@@ -21,7 +21,6 @@ const App = ({ login }) => {
   if(!data) return null;
 
   if(data){
-    // debugger
     return (
       <div>
         <h1>{data.name}</h1>
